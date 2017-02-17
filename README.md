@@ -42,9 +42,8 @@
         DATA_URL : 0,   //返回Base64编码字符串的图像数据 
         FILE_URI : 1    //返回图像文件的URI 
      }  
-     
   **sourceType**：设定图片来源。通过nagivator.camera.PictureSourceType进行定义。（数字类型）  
-  
+  > >  
     Camera.PictureSourceType = { 
         PHOTOLIBRARY : 0, 
         CAMERA : 1, 
