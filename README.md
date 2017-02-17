@@ -32,21 +32,26 @@
 
 
 ### 插件ngCordova调用nativeAPI---Camera  
-> 参数解析：  
+> 参数解析：
+  ---
   * **imageData**：根据cameraOptions的设定值，为Base64编码的图像数据或图像文件的URI。（字符串类型）  
   * **message**：设备本地代码提供的错误信息。（字符串类型）  
   * **quality**：存储图像的质量，范围是[0,100]。（数字类型）  
   * **destinationType**：选择返回数据的格式。通过navigator.camera.DestinationType进行定义。（数字类型 )  
-  Camera.DestinationType = { 
-     DATA_URL : 0,   //返回Base64编码字符串的图像数据 
-     FILE_URI : 1    //返回图像文件的URI 
-  }
-  **sourceType**：设定图片来源。通过nagivator.camera.PictureSourceType进行定义。（数字类型）  
-  Camera.PictureSourceType = { 
-     PHOTOLIBRARY : 0, 
-     CAMERA : 1, 
-     SAVEDPHOTOALBUM : 2 
-  }  
+      
+      Camera.DestinationType = {  
+        DATA_URL : 0,   //返回Base64编码字符串的图像数据  
+        FILE_URI : 1    //返回图像文件的URI
+      }  
+      
+  * **sourceType**：设定图片来源。通过nagivator.camera.PictureSourceType进行定义。（数字类型）  
+  
+      Camera.PictureSourceType = { 
+         PHOTOLIBRARY : 0, 
+         CAMERA : 1, 
+         SAVEDPHOTOALBUM : 2 
+      }  
+      
   **allowEdit**：在选择图片进行操作之前允许对其进行简单编辑。（布尔类型）  
   **EncodingType**：选择返回图像文件的编码方式，通过navigator.camera.EncodingType进行定义。（数字类型）  
   Camera.EncodingType = { 
@@ -85,7 +90,7 @@
     icon是菜单按钮图标  
     href是点击菜单的跳转地址  
     子元素ion-nav-view是点击菜单后子页面显示的位置  
-    ion-nav-view属性name为该tab的名称，后面添加子页面会详细描述。  
+    ion-nav-view属性name为该tab的名称，后面添加子页面会详细描述.  
   4.然后在app.js里加入该页面的路由  
     $stateProvider  
     
