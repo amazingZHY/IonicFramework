@@ -102,4 +102,18 @@
      
      
 保存刷新后应该是这个样子  
-![](images/ionicInit.png) 
+![](images/ionicInit.png)  
+### 创建命令行（可复制）  
+#### Ios 创建安装运行  
+ionic start myproject  
+cd myproject  
+ionic platform add ios  
+ionic build ios  
+ionic emulate ios  
+#### Android 创建安装运行  
+ionic start myproject  
+cd myproject  
+ionic platform add android  
+ionic build android  
+ionic emulate android  (模拟器运行)  
+ionic run android  (连接上手机运行) 
