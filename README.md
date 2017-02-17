@@ -101,4 +101,5 @@
      $urlRouterProvider.otherwise("/tab");  
      
      
-保存刷新后应该是这个样子
+保存刷新后应该是这个样子  
+![](images/ionicInit.png) 
