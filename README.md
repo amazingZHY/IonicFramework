@@ -27,3 +27,8 @@
     ANT_HOMEG:adt-bundle-windows-x86_64-20131030apache-ant-1.9.4  
     CLASSPATH;%ANT_HOME%lib;  
     PATH  ;%ANT_HOME%bin;  
+
+
+
+
+### 插件ngCordova调用nativeAPI---Camera
