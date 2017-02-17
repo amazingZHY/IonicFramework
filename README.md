@@ -33,10 +33,10 @@
 
 ### 插件ngCordova调用nativeAPI---Camera  
 > 参数解析：  
-  **imageData**：根据cameraOptions的设定值，为Base64编码的图像数据或图像文件的URI。（字符串类型）  
-  **message**：设备本地代码提供的错误信息。（字符串类型）  
-  **quality**：存储图像的质量，范围是[0,100]。（数字类型）  
-  **destinationType**：选择返回数据的格式。通过navigator.camera.DestinationType进行定义。（数字类型 )  
+  * **imageData**：根据cameraOptions的设定值，为Base64编码的图像数据或图像文件的URI。（字符串类型）  
+  * **message**：设备本地代码提供的错误信息。（字符串类型）  
+  * **quality**：存储图像的质量，范围是[0,100]。（数字类型）  
+  * **destinationType**：选择返回数据的格式。通过navigator.camera.DestinationType进行定义。（数字类型 )  
   Camera.DestinationType = { 
      DATA_URL : 0,   //返回Base64编码字符串的图像数据 
      FILE_URI : 1    //返回图像文件的URI 
