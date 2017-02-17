@@ -26,4 +26,4 @@
     3. 配置环境目录:  
     ANT_HOMEG:adt-bundle-windows-x86_64-20131030apache-ant-1.9.4  
     CLASSPATH;%ANT_HOME%lib;  
-    PATH  ;%ANT_HOME%bin;
+    PATH  ;%ANT_HOME%bin;  
